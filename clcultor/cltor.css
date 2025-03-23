@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./IMG_3689.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.main{
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background-color: black;
+    border-radius: 20px;
+    padding: -10;
+    margin-top: 5px;
+
+    box-shadow: 20px 20px 50px red,
+    -20px -20px 50px blue,
+    -20px 20px 50px yellow,
+    20px -20px 50px green;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 22px;
+    font-family: bold;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+input[type=button]{
+    width: 90px;
+    padding: -5px;
+    font-size: 27px;
+    font-family: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}

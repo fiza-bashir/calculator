@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cltor.css">
+</head>
+<body>
+    <div class="main">
+        <form name="cal">
+            <input type="text" name="display">
+            <br><br>
+            <input type="button" value="1" onclick="cal.display.value +='1'">
+            <input type="button" value="2" onclick="cal.display.value+='2'">
+            <input type="button" value="3" onclick="cal.display.value+='3'">
+            <input type="button" value="+" onclick="cal.display.value+='+'" style="background-color: crimson;">
+
+            <br><br>
+            <input type="button" value="4" onclick="cal.display.value+='4'">
+            <input type="button" value="5" onclick="cal.display.value+='5'">
+            <input type="button" value="6" onclick="cal.display.value+='6'">
+            <input type="button" value="-" onclick="cal.display.value+='-'" style="background-color: blueviolet;">
+
+            <br><br>
+
+            <input type="button" value="7" onclick="cal.display.value+='7'">
+            <input type="button" value="8" onclick="cal.display.value+='8'">
+            <input type="button" value="9" onclick="cal.display.value+='9'">
+            <input type="button" value="*" onclick="cal.display.value+='*'" style="background-color: chocolate;">
+
+            <br><br>
+
+            <input type="button" value="log" onclick="cal.display.value+='log'">
+            <input type="button" value="sin" onclick="cal.display.value+='sin'">
+            <input type="button" value="tan" onclick="cal.display.value+='tan'">
+            <input type="button" value="In" onclick="cal.display.value+='In'" style="background-color:cadetblue;">
+            <br><br>
+            <input type="button" value="X!" onclick="cal.display.value+='X!'">
+            <input type="button" value="TT" onclick="cal.display.value+='TT'">
+            <input type="button" value="cos" onclick="cal.display.value+='cos'">
+            <input type="button" value="Inv" onclick="cal.display.value+='Inv'" style="background-color:darkolivegreen;">
+            <br><br>
+            <input type="button" value="Rad" onclick="cal.display.value+='Rad'">
+            <input type="button" value="EXP" onclick="cal.display.value+='EXP'">
+            <input type="button" value="e" onclick="cal.display.value+='e'">
+            <input type="button" value="()" onclick="cal.display.value+='()'" style="background-color:violet;">
+            <br><br>
+            <input type="button" value="0" onclick="cal.display.value+='0'">
+            <input type="button" value="00" onclick="cal.display.value+='00'">
+            <input type="button" value="." onclick="cal.display.value+='.'">
+            <input type="button" value="/" onclick="cal.display.value+='/'" style="background-color: brown;">
+            <br><br>
+            <input type="button" value="C" onclick="cal.display.value =''" id="del">
+            
+            <input type="button" value="=" onclick="cal.display.value= eval(cal.display.value)">
+            
+        </form>
+    </div>
+</body>
+</html>
